@@ -27,7 +27,7 @@ jobs:
         env:
          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          projectPath: C:\\pro\\github\\Laba1ONIT1
+        #  projectPath: C:\\pro\\github\\Laba1ONIT1
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Build
