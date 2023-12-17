@@ -24,14 +24,11 @@ jobs:
       # Test
       - name: Run tests
         uses: game-ci/unity-test-runner@v4
-        id: testRunner
-        with:
-          testMode: all
-        #env:
+        env:
          # UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-      #  with:
-      #    projectPath: path/to/your/project
-       #   githubToken: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          projectPath: C:\\pro\\github\\Laba1ONIT1
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Build
       - name: Build project
